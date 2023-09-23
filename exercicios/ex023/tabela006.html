@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabelas Responsivas</title>
+    <style>
+
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        table {
+            border-collapse: collapse;
+            width: 500px;
+        }
+
+        caption {
+            font-size: 1.2em;
+            font-weight: bolder;
+            padding: 20px;
+        }
+
+        th, td {
+            border: 1px solid black
+        }
+
+        tr:nth-child(even) {
+            background-color: darkgray;
+        }
+        
+        div#conteiner {
+            overflow-x: auto;
+        }
+    </style>
+</head>
+<body>
+    <h1>Tabelas em Telas pequenas</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere aliquid dolore possimus animi impedit vitae, debitis dolorum numquam placeat excepturi sint qui nemo inventore consequatur obcaecati! Debitis autem eligendi harum.</p>
+    <div id="conteiner">
+        <table>
+            <caption>Tabelas Responsivas</caption>
+            <tr>
+                <thead>
+                    <th scope="col">Produto</th>
+                    <th scope="col">Jan</th>
+                    <th scope="col">Fev</th>
+                    <th scope="col">Mar</th>
+                    <th scope="col">Abr</th>
+                    <th scope="col">Mai</th>
+                    <th scope="col">Jun</th>
+                    <th scope="col">Jul</th>
+                    <th scope="col">Ago</th>
+                    <th scope="col">Set</th>
+                    <th scope="col">Out</th>
+                    <th scope="col">Nov</th>
+                    <th scope="col">Dez</th>
+                </thead>
+                <thead>
+                </thead>
+            </tr>
+        </table>
+    </div>
+</body>
+</html>
